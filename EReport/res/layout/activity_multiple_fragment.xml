@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <fragment
+        android:id="@+id/fragmentOne"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:name="com.example.ereport.fragment_first"/>
+
+    <fragment
+        android:id="@+id/fragmentTwo"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="5"
+        android:name="com.example.ereport.fragment_second"/>
+    
+    <fragment
+        android:id="@+id/fragmentThree"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="5"
+        android:name="com.example.ereport.fragment_third"/>
+</LinearLayout>
+
+</LinearLayout>
